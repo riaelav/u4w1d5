@@ -49,35 +49,9 @@ public class Main {
 
         }
 
-        scanner.close();
-    }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-       /* Audio audio = new Audio("song", 5, 6);
+        //esempi statici
+        
+        Audio audio = new Audio("song", 5, 6);
         Video video = new Video("film", 4, 7, 5);
         Img img = new Img("Sunset", 4);
 
@@ -87,7 +61,12 @@ public class Main {
         System.out.println("Play video:");
         video.play();
         System.out.println("Show img:");
-        img.show();*/
+        img.show();
+
+        scanner.close();
+    }
+
+
 }
 
 
