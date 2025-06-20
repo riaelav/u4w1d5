@@ -1,4 +1,5 @@
 package interfaces;
 
-public class Play {
+public interface Play {
+    public void play();
 }
